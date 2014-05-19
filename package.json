@@ -1,0 +1,32 @@
+{
+  "name": "gulp-requirejs-wrap-text",
+  "description": "Convert plain text files to requirejs modules",
+  "version": "0.1.0",
+  "homepage": "http://github.com/saschagehlich/gulp-requirejs-wrap-text",
+  "repository": "git://github.com/saschagehlich/gulp-requirejs-wrap-text.git",
+  "author": "Sascha Gehlich <sascha@gehlich.us>",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "event-stream": "^3.0.20",
+    "gulp-util": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/saschagehlich/gulp-requirejs-wrap-text/raw/master/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "predef": [
+    "angular",
+    "after",
+    "afterEach",
+    "before",
+    "beforeEach",
+    "chai",
+    "describe",
+    "expect",
+    "iit",
+    "it",
+    "runs",
+    "sinon",
+    "spyOn",
+    "waits",
+    "waitsFor",
+    "xit",
+    "xdescribe",
+    "define",
+    "module",
+    "exports",
+    "require",
+    "window",
+    "process",
+    "console",
+    "twttr",
+    "FB",
+    "_",
+    "__dirname",
+    "Buffer"
+  ]
+}
