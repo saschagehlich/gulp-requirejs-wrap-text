@@ -32,7 +32,7 @@ describe('gulp-requirejs-wrap-text', function() {
 
     it('should turn a text file into a requirejs module', function(done) {
       var filepath = 'test/fixtures/test.haml';
-      var contents = new Buffer(fs.readFileSync(filepath));
+      var contents = Buffer.from(fs.readFileSync(filepath));
       var expected = 'test/fixtures/test.haml.js';
 
       wraptext()

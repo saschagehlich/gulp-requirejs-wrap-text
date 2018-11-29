@@ -27,7 +27,7 @@ module.exports = function (opt) {
       return this.emit('error', new Error(err));
     }
 
-    file.contents = new Buffer(data);
+    file.contents = Buffer.from(data);
     this.emit('data', file);
   }
 
